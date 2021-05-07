@@ -32,6 +32,9 @@ const Carousel = styled(Slider)`
     margin-top: 20px;
 
     ul li button {
+        position: absolute;
+        left: 600px;
+        top: -30px;
         &:before {
             font-size: 10px;
             color: rgb(150, 158, 171);

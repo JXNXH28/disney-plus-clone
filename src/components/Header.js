@@ -8,15 +8,15 @@ function Header() {
             <NavMenu>
                 <a>
                     <img src="/images/home-icon.svg" />
-                    <span>HOME</span>
+                    <span>STARTSEITE</span>
                 </a>
                 <a>
                     <img src="/images/search-icon.svg" />
-                    <span>SEARCH</span>
+                    <span>SUCHEN</span>
                 </a>
                 <a>
                     <img src="/images/watchlist-icon.svg" />
-                    <span>WATCHLIST</span>
+                    <span>MEINE LISTE</span>
                 </a>
                 <a>
                     <img src="/images/original-icon.svg" />
@@ -24,11 +24,11 @@ function Header() {
                 </a>
                 <a>
                     <img src="/images/movie-icon.svg" />
-                    <span>MOVIES</span>
+                    <span>FILME</span>
                 </a>
                 <a>
                     <img src="/images/series-icon.svg" />
-                    <span>SERIES</span>
+                    <span>SERIEN</span>
                 </a>
             </NavMenu>
             <UserImg src="/images/IMG_3847.jpg"/>
