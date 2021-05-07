@@ -17,10 +17,16 @@ function ImgSlider() {
     return (
         <Carousel {...settings}>
             <Wrap>
-                <img src="/images/slider-badging.jpg" alt=""/>
+                <img src="/images/slider-badging.jpg" alt="Burrow"/>
             </Wrap>
             <Wrap>
-                <img src="/images/slider-badag.jpg" alt=""/>
+                <img src="/images/slider-scale.jpg" alt="WandaVision"/>
+            </Wrap>
+            <Wrap>
+                <img src="/images/slider-badag.jpg" alt="Onward"/>
+            </Wrap>
+            <Wrap>
+                <img src="/images/slider-scales.jpg" alt="WandaVision"/>
             </Wrap>
         </Carousel>
     )
@@ -33,7 +39,7 @@ const Carousel = styled(Slider)`
 
     ul li button {
         position: absolute;
-        left: 600px;
+        left: 570px;
         top: -30px;
         &:before {
             font-size: 10px;

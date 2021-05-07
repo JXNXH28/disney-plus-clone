@@ -6,7 +6,18 @@ function Movies() {
         <Container>
             <h4>Neu bei Disney+</h4>
             <Content>
-
+                <Wrap>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                </Wrap>
+                <Wrap>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                </Wrap>
+                <Wrap>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                </Wrap>
+                <Wrap>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg" alt="" />
+                </Wrap>
             </Content>
         </Container>
     )
@@ -15,9 +26,20 @@ function Movies() {
 export default Movies
 
 const Container = styled.div`
-    
+
 `
 
 const Content = styled.div`
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+`
 
+const Wrap = styled.div`
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 `
