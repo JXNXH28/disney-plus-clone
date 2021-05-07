@@ -39,7 +39,7 @@ const Carousel = styled(Slider)`
 
     ul li button {
         position: absolute;
-        left: 570px;
+        left: 520px;
         top: -30px;
         &:before {
             font-size: 10px;
